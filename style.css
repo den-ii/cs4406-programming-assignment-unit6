@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+canvas {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+}
