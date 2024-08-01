@@ -89,6 +89,7 @@ let angle = 0;
 function render() {
   if (earth) {
     earth.rotation.y += 0.001
+    earth.rotation.x += 0.001
   };
   if (moon) {
     // Updating the Moon's position to orbit around the Earth
